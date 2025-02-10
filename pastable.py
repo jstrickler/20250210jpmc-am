@@ -4,6 +4,7 @@ fruits = ["pomegranate", "cherry", "apricot", "apple",
 "papaya", "fig", "pear", "banana", "tamarind", "persimmon",
 "elderberry", "peach", "blueberry", "lychee", "grape", "date"]
 
+
 # mixed case
 fruits = ["pomegranate", "cherry", "apricot", "Apple",
 "lemon", "Kiwi", "ORANGE", "lime", "Watermelon", "guava",
