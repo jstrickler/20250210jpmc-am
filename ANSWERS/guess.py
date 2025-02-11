@@ -2,6 +2,9 @@ max_value = 26
 min_value = 0
 tries = 1
 
+# = assignment
+# == comparison
+
 while True:
     guess = (max_value + min_value) // 2
     answer = input(f"Is {guess} your number? ")

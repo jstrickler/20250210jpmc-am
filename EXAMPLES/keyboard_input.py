@@ -1,5 +1,7 @@
 
 user_name = input("What is your name: ")
+if user_name == '':
+    print("You don't have a name?")
 quest = input("What is your quest? ")
 print(f"{user_name} seeks {quest}")
 
