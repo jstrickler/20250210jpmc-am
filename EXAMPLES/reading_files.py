@@ -16,7 +16,7 @@ with open(FILE_NAME) as mary_in:
     print("NORMAL:")
     print(contents)
     print("=" * 20)
-    print("RAW:")
+    print("RAW (aka REPR):")
     print(repr(contents))  # print string in "raw" mode
 print('-' * 60)
 
@@ -26,5 +26,5 @@ with open(FILE_NAME) as mary_in:
 print('-' * 60)
 
 with open(FILE_NAME) as mary_in:
-    lines_without_nl = mary_in.read().splitlines()  # splitlines() splits string on ' ' into lines
+    lines_without_nl = mary_in.read().splitlines()  # splitlines() splits string on '\n' into lines
     print(lines_without_nl)
